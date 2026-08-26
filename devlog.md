@@ -1,3 +1,15 @@
+## AUG 26 2026 Week 3 Exceptions -- Groceries.py
+**Worked on:** building counters, organizing user input
+**Broke:** Struggled to try to make the users input fit into indexes of a list for a while and got frustrated. My if/else statements were not counting properly, they were outside the while loop.
+**Fixes:** Came back the next day, went back to my notes and lectures and used a dict instead
+**Notes:** 
+1. Variables can be keys in dicts
+2. Lists store sequences, a dict stores a mapping
+**What I Would Do Differently:** 
+1. Stepping away when frustrated
+2. Not being afraid to strip apart the problem section by section and restart to debug
+3. Tracing input by hand before writing code.
+
 ## AUG 14 2026 Week 3 Exceptions -- Fuel.py
 **Worked on:** reprompt looping, E/F edge cases
 **Broke:** infinite loop printing values, program printed "E" then kept running
