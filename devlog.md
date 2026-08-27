@@ -6,7 +6,7 @@
 2. "if months in date" was checking a dict against a string
 3. Where to put .split(), I kept putting it BEFORE the format check, so it was checking for nothing.
 4. Tried padding a str (Ex: f"{date:02}) 
-5. Having .strip(",") in the wrong branch, and was confused why .split(",") wouldn't remove the commma.
+5. Having .strip(",") in the wrong branch, and was confused why .split(",") wouldn't remove the comma.
 6. using built in functions on variables before they were defined resulting in UnboundLocalError.
 7. and vs or in the rejection guard.
 
@@ -18,7 +18,7 @@
 5. Missing comma case, having endswith(",") guard before the strip.
 
 **Notes:**
-    -This felt like my first "difficult" pset compared to the rest ive done so far, conceptualizing each part from the beginnning isn't a winning strategy anymore.
+    -This felt like my first "difficult" pset compared to the rest I've done so far, conceptualizing each part from the beginning isn't a winning strategy anymore.
     -I'm glad I did alter what was given slightly, and made the list into a dict.
 
 **What I Would've Done Differently:**
