@@ -1,3 +1,29 @@
+## AUG 27 2026 Week 3 Exceptions -- Outdated.py
+**Worked on:** Multiple case edges in different branches, dict indexing
+
+**Broke:** Here we go:
+1. Initially looked into enumerating to build a dict, wasted time.
+2. "if months in date" was checking a dict against a string
+3. Where to put .split(), I kept putting it BEFORE the format check, so it was checking for nothing.
+4. Tried padding a str (Ex: f"{date:02}) 
+5. Having .strip(",") in the wrong branch, and was confused why .split(",") wouldn't remove the commma.
+6. using built in functions on variables before they were defined resulting in UnboundLocalError.
+7. and vs or in the rejection guard.
+
+**Fixes:** 
+1. Moved .split() inside the if "/" branch format check
+2. Made day and year as ints for padding, kept month as it was an int from indexing the dict
+3. Separated split and strip as two steps
+4. UnboundLocalError: Moved the check on to split[1] instead of day since it wasn't declared a variable yet
+5. Missing comma case, having endswith(",") guard before the strip.
+
+**Notes:**
+This felt like my first "difficult" pset compared to the rest ive done so far, conceptualizing each part from the beginnning isn't a winning strategy anymore.
+I'm glad I did alter what was given slightly, and made the list into a dict.
+
+**What I Would've Done Differently:**
+I'll need to really practice what I preach and work section by section, testing output as I go.
+
 ## AUG 26 2026 Week 3 Exceptions -- Groceries.py
 **Worked on:** building counters, organizing user input
 
