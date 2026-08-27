@@ -18,11 +18,13 @@
 5. Missing comma case, having endswith(",") guard before the strip.
 
 **Notes:**
-    -This felt like my first "difficult" pset compared to the rest I've done so far, conceptualizing each part from the beginning isn't a winning strategy anymore.
-    -I'm glad I did alter what was given slightly, and made the list into a dict.
+
+- This felt like my first "difficult" pset compared to the rest I've done so far, conceptualizing each part from the beginning isn't a winning strategy anymore.
+- I'm glad I did alter what was given slightly, and made the list into a dict.
 
 **What I Would've Done Differently:**
-    -I'll need to really practice what I preach and work section by section, testing output as I go.
+
+- I'll need to really practice what I preach and work section by section, testing output as I go.
 
 ## AUG 26 2026 Week 3 Exceptions -- Groceries.py
 **Worked on:** building counters, organizing user input
