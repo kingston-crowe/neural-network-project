@@ -1,3 +1,25 @@
+## AUG 28 2026 Week 4 Libraries -- figlet.py 
+**Worked on:** Importing libraries, command line arguments, classes and objects
+
+**Broke:** 
+1. Repeatedly called modules (ex. figlet(text)), going back and forth each time from the dir() seemed annoying and tedious
+2. import figlet instead of pyfiglet
+3. sys.argv[1] == "-f" or "--font" : str "--font" after or will always be true
+4. sys.argv[3]: not counting elements from 0 up
+5. using font_list outside of its branch
+6. passing arguments to functions that take none (seemed logical every time, not very intuitive yet)
+
+**Fixes:** 
+- Figlet() builds an object, then move to figlet.method() (these naming conventions are actually bad, -1 point for clarity)
+- Moved getFonts() above the if so its available to both branches
+- No assignment needed for setFont
+
+**Notes:**
+- Set vs get: getFonts returns something that needs to be assigned, setFont changes the object and returns nothing
+
+**What I Would Do Differently:**
+- Constantly going back to REPL was annoying, when using imported libraries, I'll just google their web page with lists of what each method, object, class does. 
+
 ## AUG 27 2026 Week 3 Exceptions -- Outdated.py
 **Worked on:** Multiple case edges in different branches, dict indexing
 
