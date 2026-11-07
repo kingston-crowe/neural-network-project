@@ -1,3 +1,11 @@
+## SEP 19 2026 Week 4 Libraries -- professor.py
+**Goal:** 
+
+**Wall:**
+
+**Fix:**
+
+**Learned:**
 ## AUG 28 2026 Week 4 Libraries -- figlet.py 
 **Worked on:** Importing libraries, command line arguments, classes and objects
 
