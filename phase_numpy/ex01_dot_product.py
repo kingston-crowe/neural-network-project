@@ -15,4 +15,5 @@ def dot_product(w,x):
         total += (w[i] * x[i])
     return total
 
-main()
+if __name__ == "__main__":
+    main()

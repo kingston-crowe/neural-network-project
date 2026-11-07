@@ -7,4 +7,5 @@ def sigmoid(z):
     a = 1 / (1 + np.exp(-z))
     return a
 
-main()
+if __name__ == "__main__":
+    main()
