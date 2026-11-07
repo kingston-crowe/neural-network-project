@@ -1,13 +1,18 @@
+import numpy as np
 def main(): 
-    list1 = [1,2]
-    list2 = [4,5,6]
-    print(dot_product(list1, list2))
-def dot_product(list1,list2):
+    w = np.array([1,2,3])
+    x = np.array([4,5,6])
+    print(dot_product(w, x))
+    print(np.dot(w,x))
+    print(w @ x)
+
+    
+def dot_product(w,x):
     total = 0
-    if range(len(list1)) != range(len(list2)):
+    if len(w) != len(x):
         raise ValueError("Vectors not the same dimension")
-    for i in range(len(list1)):
-        total += (list1[i] * list2[i])
+    for i in range(len(w)):
+        total += (w[i] * x[i])
     return total
 
 main()
